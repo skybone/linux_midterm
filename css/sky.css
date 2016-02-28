@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('../font/droidsans_regular_macroman/DroidSans-webfont.eot');
+    src: url('../font/droidsans_regular_macroman/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/droidsans_regular_macroman/DroidSans-webfont.woff') format('woff'),
+         url('../font/droidsans_regular_macroman/DroidSans-webfont.ttf') format('truetype'),
+         url('../font/droidsans_regular_macroman/DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Merriweather-Regular';
+    src: url('../font/merriweather/Merriweather-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('../font/lato/Lato-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+	height: auto;
+  	background: center #fff;
+	letter-spacing: 0.03em;
+	font-size: 1.2em;
+}
+
+h1 {
+    visibility: hidden;
+    text-transform: uppercase;
+    color: #fff !important;
+	text-shadow: 2px 2px #000;
+    letter-spacing: 0.1em;
+    font-family: 'Lato-Bold', 'droid_sansregular', arial !important;
+}
+
+h2 {
+	text-align: center;
+	padding: 5px;
+	text-align: left !important;
+	font-family: 'droid_sansregular', arial, impact;
+	font-size: 1.4em !important;
+	color: #eee!important;
+}
+
+h4 {
+	font-size: 2em !important;
+	font-weight: 400;
+}
+
+p {
+	font-family: 'Merriweather-Regular', 'droid_sansregular', arial;
+	font-size: 1.22em;
+}
+
+.footH2 {
+	color: #fff;
+	text-align: center;
+	font-size: 1.4em;
+}
+
+header {
+	border-bottom: 50px solid #333;
+}
+
+.border2header {
+	border-top: solid 10px #ff9900;
+	width: 100%;
+}
+
+.cont2 {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.annual {
+	float: right;
+	top:50;
+}
+
+.topcont {
+	background: center rgba(0,0,0,0.65);
+    height: auto;
+    padding: 4px;
+    width: 50%;
+    margin-top: 25px;
+    margin: 0 auto;
+}
+
+.btn, .regbtn {
+	color: #fff;
+	border-radius: 8px
+	padding: 5px;
+	background: no-repeat green;
+}
+
+.carousel-item img {
+	margin: 0 auto;
+	z-index: 1;
+	width: 100vw;
+	height: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-position: 65% center;
+	background-size: cover;
+	position: relative;
+}
+
+.carousel-indicators {
+	margin-bottom: 2px;
+}
+
+.calendar {
+	margin:0 auto;
+}
+
+.overslide {
+	top:15%;
+	font-size: 100%;
+	background: transparent center center;
+	z-index: 10000;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	position: absolute;
+}
+
+.card {
+	clear: both;
+	width: 95%;
+	position: absolute;
+	border-radius: 8px;
+}
+
+.navbgcolour {
+	background-color: rgba(0,0,0,0.5);
+	width: 100% !important;
+	clear: both;
+	z-index: 9999;
+	display: block;
+	height: 50px;
+	position: absolute !important;
+}
+
+
+
+.bg-faded {
+	background-color: transparent !important;
+}
+
+.tux {
+	background: url(../images/icons/tux35.png);
+	width: 30px;
+	height: 35px;
+	float: left;
+	color: #fff;
+	margin-left: 15px;
+	margin-right: 5px;
+}
+
+.secondNav {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.secondNav a {
+	clear: both;
+}
+
+.secondNav p {
+	color: #ddd;
+}
+
+.addy {
+	color: #ddd;
+	margin: 0 auto;
+	background-color: transparent;
+}
+
+.card-img-top {
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10 {
+	width: 130px;
+	height: auto;
+	margin: 0 auto;
+	background: center;
+	vertical-align: center;
+}
+
+.partners {
+	width: 95%;
+	margin: 0 auto;
+}
+
+footer {
+	padding-top: 25px;
+	height: auto;
+	width: 100%;
+	background-color: #333;
+}
+
+.linuxfoundation-logo {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background: transparent url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9z…yMy42MDQtLjIzLjIzIDAgLjQ2LjA2Mi42ODYuMTg3IiBmaWxsPSIjMzA5MjQ1Ii8+PC9zdmc+") no-repeat -10px center;
+    width: 100%;
+    font-size: 2em;
+    color: #fff;
+    max-width: 420px;
+    text-indent: -9000px;
+}
+
+@media(min-width: 768px) {
+	h1 {
+		visibility: visible;
+		font-size: 3em;
+	}
+
+	.headp {
+		font-size: 1.3em;
+	}
+
+	h2 {
+		font-size: 2.5em;
+	}
+
+	.annual {
+		float: right;
+		top:50;
+	}
+
+	.topcont {
+		background: center rgba(0,0,0,0.65);
+		height: auto;
+		padding: 4px;
+		display: block;
+		position: absolute;
+	}
+
+	.cont2 {
+	    margin: 0 auto;
+	    text-align: left;
+	    padding-top: 15%;
+	}
+
+	.btn .regbtn {
+		color: #fff;
+		border-radius: 8px
+		padding: 5px;
+		background: no-repeat green;
+	}
+
+	.card {
+		width: 33.33% !important;
+	}
+
+	.footH2 {
+		font-size: 1.4em;
+	}
+}
+
+@media(min-width: 968px) {
+	h1 {
+		font-size: 4em;
+	}
+
+	h2 {
+		font-size: 3em;
+	}
+
+	.card {
+		width: 30% !important;
+	}
+
+	.container {
+		width: 80%;
+		max-width: none !important;
+	}
+
+	.footH2 {
+		font-size: 3em;
+	}
+
+	.headp {
+		font-size: 3em;
+	}
+}
+
+@media(min-width: 1440px) {
+	h1 {
+		font-size: 8em;
+	}
+
+	h2 {
+		font-size: 4.5em;
+	}
+
+	.card {
+		width: 30% !important;
+	}
+
+
+	.footH2 {
+		font-size: 4.5em;
+	}
+
+	.headp {
+		font-size: 4em;
+	}
+}
